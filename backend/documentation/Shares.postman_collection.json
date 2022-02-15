@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "31733bea-14c8-4bad-862f-4c900d859da0",
+		"name": "Shares",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/shares",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"symbol\" : \"d\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/shares",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"shares"
+					]
+				},
+				"description": "Anlegen eines neuen Beispielsymbols in der Liste"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteShares",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}

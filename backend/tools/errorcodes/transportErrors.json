@@ -1,0 +1,29 @@
+[
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/204",
+            "summary": "no content found",
+            "status": "204",
+            "errorcode": "2001",
+            "details": "no content was found for the requested ressource"
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "requested resource could not be found",
+            "status": "404",
+            "errorcode": "2002",
+            "details": "transport-network does not exist"
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "requested resource could not be found",
+            "status": "404",
+            "errorcode": "2003",
+            "details": "station does not exist"
+        }
+    } 
+]

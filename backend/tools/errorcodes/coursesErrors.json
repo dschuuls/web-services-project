@@ -1,0 +1,92 @@
+[
+    {
+        "problem": {
+            "type": "No Content",
+            "summary": "Keine Daten gefunden.",
+            "status": "204",
+            "errorcode": "3000",
+            "details": "Es wurden keine entsprechenden Daten gefunden."
+        }
+    },
+    {
+        "problem": {
+            "type": "Not Found",
+            "summary": "Ressource nicht gefunden.",
+            "status": "404",
+            "errorcode": "3001",
+            "details": "Die angeforderte Ressource wurde nicht gefunden."
+        }
+    },
+    {
+        "problem": {
+            "type": "Bad Request",
+            "summary": "Anfrage fehlerhaft.",
+            "status": "400",
+            "errorcode": "3010",
+            "details": "Die Anfragenachricht war fehlerhaft aufgebaut."
+        }
+    },
+    {
+        "problem": {
+            "type": "Bad Request",
+            "summary": "Falsches Format.",
+            "status": "400",
+            "errorcode": "3011",
+            "details": "Das angegebene Datum war im falschen Format."
+        }
+    },
+    {
+        "problem": {
+            "type": "Internal Server Error",
+            "summary": "Unerwarteter Fehler.",
+            "status": "500",
+            "errorcode": "3020",
+            "details": "Es ist ein unerwarteter Fehler aufgetreten."
+        }
+    },
+    {
+        "problem": {
+            "type": "Internal Server Error",
+            "summary": "Verbindung fehlgeschlagen.",
+            "status": "500",
+            "errorcode": "3021",
+            "details": "Die Verbindung mit dem Webserver der HS Esslingen ist fehlgeschlagen."
+        }
+    },
+    {
+        "problem": {
+            "type": "Internal Server Error",
+            "summary": "Fehler beim Parsen.",
+            "status": "500",
+            "errorcode": "3022",
+            "details": "Es ist ein Fahler beim Parsen der Seite aufgetreten."
+        }
+    },
+    {
+        "problem": {
+            "type": "Internal Server Error",
+            "summary": "Fehler beim Parsen.",
+            "status": "500",
+            "errorcode": "3023",
+            "details": "Es ist ein Fehler beim Parsen des Kalenders aufgetreten."
+        }
+    },
+    {
+        "problem": {
+            "type": "Internal Server Error",
+            "summary": ".",
+            "status": "500",
+            "errorcode": "3024",
+            "details": "."
+        }
+    },
+    {
+        "problem": {
+            "type": "Internal Server Error",
+            "summary": ".",
+            "status": "500",
+            "errorcode": "3025",
+            "details": "."
+        }
+    }
+]

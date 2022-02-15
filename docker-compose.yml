@@ -1,0 +1,27 @@
+version: '3'
+services:
+  webservices_backend_v1:
+    build: backend/.
+    container_name: webservices_infomatiker_service_v1
+    environment:
+      - API_SWAGGER_PATH="/api/v1"
+
+  webservices_backend_v2:
+    build: backend/.
+    container_name: webservices_infomatiker_service_v2
+    environment:
+      - API_SWAGGER_PATH="/api/v2"
+
+  webservices_swagger:
+    image: swaggerapi/swagger-ui
+    container_name: webservices_swagger_service
+ 
+  webservices_reverse_proxy:
+    build: reverse_proxy/.
+    container_name: webservices_reverse_proxy
+    ports:
+      - "3000:80"
+    depends_on:
+      - webservices_backend_v1
+      - webservices_backend_v2
+      - webservices_swagger

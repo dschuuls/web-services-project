@@ -1,0 +1,102 @@
+[
+    {
+        "problem": {
+            "type": "NO CONTENT",
+            "summary": "",
+            "status": "204",
+            "errorcode": "1001",
+            "details": "the requested ressource does not have any content"
+        }
+    },
+    {
+        "problem": {
+            "type": "INTERNAL SERVER ERROR",
+            "summary": "Could not connect to OpenMensa API",
+            "status": "500",
+            "errorcode": "1002",
+            "details": "no successful connection to openMensa can be established"
+        }
+    },
+    {
+        "problem": {
+            "type": "Bad Request",
+            "summary": "Could not find requested ressource",
+            "status": "404",
+            "errorcode": "1003",
+            "details": "the requested ressource does not exists on OpenMensa"
+        }
+    },
+    {
+        "problem": {
+            "type": "INTERNAL SERVER ERROR",
+            "summary": "Cannot read file",
+            "status": "500",
+            "errorcode": "1004",
+            "details": "cannot read file"
+        }
+    },
+    {
+        "problem": {
+            "type": "INTERNAL SERVER ERROR",
+            "summary": "Cannot write file",
+            "status": "500",
+            "errorcode": "1005",
+            "details": "Cannot write file"
+        }
+    },
+    {
+        "problem": {
+            "type": "Bad Request",
+            "summary": "Could not find requested ressource",
+            "status": "404",
+            "errorcode": "1006",
+            "details": "the requested ressource does not exists on OpenMensa"
+        }
+    },
+    {
+        "problem": {
+            "type": "Bad Request",
+            "summary": "Could not find requested ressource",
+            "status": "404",
+            "errorcode": "1007",
+            "details": "the requested ressource does not exists on OpenMensa"
+        }
+    },
+    {
+        "problem": {
+            "type": "Conflict",
+            "summary": "ID is already in use",
+            "status": "409",
+            "errorcode": "1008",
+            "details": "OpenMensa canteen id is already in use"
+        }
+    },
+    {
+        "problem": {
+            "type": "Conflict",
+            "summary": "ID doeas not exists",
+            "status": "409",
+            "errorcode": "1009",
+            "details": "ID already exists"
+        }
+    },
+    {
+        "problem": {
+            "type": "Not Found",
+            "summary": "Could not find requested ressource",
+            "status": "404",
+            "errorcode": "1010",
+            "details": "the requested ressource does not exists in file"
+        }
+    },
+    {
+        "problem": {
+            "type": "Bad Request",
+            "summary": "the request body is invalid",
+            "status": "400",
+            "errorcode": "1011",
+            "details": "the request body is invalid"
+        }
+    }
+
+]

@@ -1,0 +1,156 @@
+[
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "The symbol could not be found.",
+            "status": "404",
+            "errorcode": "4001",
+            "details": "The symbol could not be found."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "The symbol could not be verified as a valid symbol. It has not been added.",
+            "status": "404",
+            "errorcode": "4002",
+            "details": "The symbol could not be verified as a valid symbol. It has not been added."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/409",
+            "summary": "The symbol was already in the list and has not been added.",
+            "status": "409",
+            "errorcode": "4003",
+            "details": "The symbol was already in the list and has not been added."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "The UUID was not in the list.",
+            "status": "404",
+            "errorcode": "4004",
+            "details": "The UUID was not in the list and therefore the symbol could not be deleted."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "The symbol file could not be read while writing.",
+            "status": "500",
+            "errorcode": "4005",
+            "details": "The symbol file could not be read for some reason. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "Could not write to symbol file.",
+            "status": "500",
+            "errorcode": "4006",
+            "details": "The symbol file could not be read for some reason. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "The symbol file could not be read while deleting.",
+            "status": "500",
+            "errorcode": "4007",
+            "details": "The symbol file could not be read for some reason. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "The symbol file could not be read.",
+            "status": "500",
+            "errorcode": "4008",
+            "details": "The symbol file could not be read for some reason. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "Could not communicate properly with the external shares API.",
+            "status": "500",
+            "errorcode": "4009",
+            "details": "Could not communicate properly with the external shares API. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "The symbol file could not be read.",
+            "status": "500",
+            "errorcode": "4010",
+            "details": "The symbol file could not be read for some reason. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "The UUID could not be found.",
+            "status": "404",
+            "errorcode": "4011",
+            "details": "The UUID could not be found. It was not in the list of symbols."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "The UUID could not be found.",
+            "status": "404",
+            "errorcode": "4012",
+            "details": "The UUID could not be found. It was not in the list of symbols and therefore could not be updated."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "The symbol file could not be read.",
+            "status": "500",
+            "errorcode": "4013",
+            "details": "The symbol file could not be read for some reason. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/400",
+            "summary": "The symbol was not added.",
+            "status": "400",
+            "errorcode": "4014",
+            "details": "The request body was lacking a stock symbol, which is strictly necessary. Please send a proper request."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/400",
+            "summary": "The symbol was not updated.",
+            "status": "400",
+            "errorcode": "4015",
+            "details": "Using a PUT request requires you to add information about every field (company, notes) for the symbol you want to update. If you don't want to update every field, use PATCH instead."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/500",
+            "summary": "The symbol file could not be read.",
+            "status": "500",
+            "errorcode": "4016",
+            "details": "The symbol file could not be read for some reason. Please contact the developer."
+        }
+    },
+    {
+        "problem": {
+            "type": "https://httpstatuses.com/404",
+            "summary": "The UUID could not be found.",
+            "status": "404",
+            "errorcode": "4017",
+            "details": "The UUID could not be found. It was not in the list of symbols. Therefore the symbol was not found and no detailed information can be delivered."
+        }
+    }
+
+]
